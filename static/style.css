@@ -15,6 +15,16 @@ nav {
     margin:auto;
     border-radius: 15px;
 }
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: blue;
+}
 main {
     padding: 1%;
 }
