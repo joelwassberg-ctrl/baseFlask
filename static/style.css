@@ -2,20 +2,27 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 100%;
 }
 nav {
-    margin: 0;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
     background-color: #13ef79;
-    padding: 2rem;
+    padding: 1%;
+    width: fit-content;
+    margin:auto;
+    border-radius: 15px;
 }
 main {
-    padding: 1rem;
-    background-color: #f0f0f0;
+    padding: 1%;
 }
 footer {
     display: flex;
+    margin-top: auto;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1%;
     background-color: #13ef79;
 }
