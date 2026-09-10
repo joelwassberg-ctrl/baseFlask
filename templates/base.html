@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Innehåll i nedanstående rad ges av specifika html-filer -->
+    <title>{% block title %}Base{% endblock %}</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="/">Index</a> |
+        <a href="/home">Home</a> |
+        <a href="/about">About</a>
+      </nav>
+    </header>
+    <!-- Innehåll i nedanstående rad ges av specifika html-filer -->
+    <main>{% block content %}{% endblock %}</main>
+    <footer>
+      <p>&copy; 2025 My Flask Site</p>
+    </footer>
+  </body>
+
+</html>
